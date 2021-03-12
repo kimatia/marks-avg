@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <div class="container">
+        <div class="col-lg-6 m-auto d-block">
+        <h1 class="text-white text-center font-weight-bold bg-success">Total, Average & Grading System with JavaScript </h1>
+            <form action="#" onsubmit="return validation()" class="bg-light">
+                <div class="form-group">
+                    <label class="font-weight-bold">Roll No:</label>
+                    <input type="text" class="form-control" id="RollNo" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorRollNo1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorRollNo2"></div>
+                    <div class="alert alert-info alert-dismissible" id="errorRollNo3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-bold">Computer Obt. Marks:</label>
+                    <input type="text" class="form-control" id="ComputerMarks" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorComputerMarks1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorComputerMarks2"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorComputerMarks3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-bold">Physics Obt. Marks:</label>
+                    <input type="text" class="form-control" id="PhyMarks" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorPhyMarks1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorPhyMarks2"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorPhyMarks3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-bold">Chemistry Obt. Marks:</label>
+                    <input type="text" class="form-control" id="CheMarks" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorCheMarks1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorCheMarks2"></div>
+                    <div class="alert alert-info alert-dismissible" id="errorCheMarks3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-bold">Mathematics Obt. Marks:</label>
+                    <input type="text" class="form-control" id="MathMarks" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorMathMarks1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorMathMarks2"></div>
+                    <div class="alert alert-info alert-dismissible" id="errorMathMarks3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-bold">Geographics Obt. Marks:</label>
+                    <input type="text" class="form-control" id="GeoMarks" autocomplete="off"/>
+                    <div class="alert alert-danger alert-dismissible" id="errorGeoMarks1"></div>
+                    <div class="alert alert-warning alert-dismissible" id="errorGeoMarks2"></div>
+                    <div class="alert alert-info alert-dismissible" id="errorGeoMarks3"></div>
+                </div>
+                <br>
+                <input type="submit" value="Calculate" class="btn btn-success"/> <button type="reset" value="reset" class="btn btn-secondary">Clear</button>
+                <div class="alert alert-success alert-dismissible" id="totalMarks"></div>
+                <div class="alert alert-success alert-dismissible" id="avg"></div>
+                <div class="alert alert-success alert-dismissible" id="grading"></div>
+            </form>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

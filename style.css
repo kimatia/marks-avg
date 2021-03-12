@@ -1,0 +1,40 @@
+    body {
+        background-image: url(https://digitalforge.qa/images/codepen/bg.png);
+    }
+    .bg-light {
+        padding: 15px 30px;
+        border: 1px solid green;
+        border-radius: 15px 0px 15px 0px;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'ZCOOL XiaoWei', serif;
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .text-white {
+        font-size: 28px;
+    }
+    label {
+        font-family: 'Raleway', sans-serif;
+    }
+    div:empty {
+    display:none !important;
+}
+    .alert.alert-danger.alert-dismissible, .alert.alert-info.alert-dismissible, .alert.alert-success.alert-dismissible, .alert.alert-warning.alert-dismissible{
+        margin-top:5px;
+    }
+.credits{
+  margin-top:50px; 
+  padding:20px;
+  border-radius:5px;
+  width:450px;
+  text-align:center;
+  color:gray;
+}
+a {
+  color:gray;
+  text-decoration:none;
+}
+a:hover{
+  color:#34495E;
+}
